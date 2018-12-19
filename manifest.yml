@@ -14,7 +14,7 @@
           app: nginx
       spec:
         containers:
-          - image: 'simpleapp:placeholder-tag'
+          - image: 'docker.io/armory/simpleapp:placeholder-tag'
             name: nginx
             ports:
               - containerPort: 80
